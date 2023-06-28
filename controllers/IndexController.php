@@ -1,6 +1,6 @@
 <?php
 
-namespace humhub\modules\exampleBasic\controllers;
+namespace humhub\modules\Starred\controllers;
 
 use humhub\modules\content\components\ContentContainerController;
 
