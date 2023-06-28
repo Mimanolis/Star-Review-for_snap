@@ -1,14 +1,14 @@
 <?php
 
-namespace acmeCorp\humhub\modules\exampleBasic\controllers;
+namespace humhub\modules\exampleBasic\controllers;
 
-use humhub\components\Controller;
+use humhub\modules\content\components\ContentContainerController;
 
-class IndexController extends Controller
+class StarredController extends ContentContainerController
 {
 
     /**
-     * Renders the index view for the module
+     * Renders the index view for the "Starred" module
      *
      * @return string
      */
@@ -18,4 +18,3 @@ class IndexController extends Controller
     }
 
 }
-
