@@ -9,7 +9,7 @@ class Assets extends AssetBundle
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@example-basic/resources';
+    public $sourcePath = '@Starred/resources';
 
     /**
      * @inheritdoc
