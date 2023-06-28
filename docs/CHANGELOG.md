@@ -1,11 +1,7 @@
 Changelog
 =========
 
-1.0.1 (April 19, 2021)
-----------------------
-- Fix #1: Rename Module ID Script misses translation codes
-
-1.0.0 (August 08, 2020)
+1.0.0 (28/6/2023)
 -------------------------
-- Chg: Added rewrite id script
+- First draft of the Starred module for HumHub
 - Chg: Initial commit
