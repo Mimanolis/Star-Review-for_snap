@@ -1,8 +1,9 @@
 <?php
 
-namespace acmeCorp\humhub\modules\exampleBasic\controllers;
+namespace humhub\modules\exampleBasic\controllers;
 
 use humhub\modules\admin\components\Controller;
+use acmeCorp\humhub\modules\exampleBasic\assets\Assets;
 
 class AdminController extends Controller
 {
@@ -14,8 +15,10 @@ class AdminController extends Controller
      */
     public function actionIndex()
     {
+        // Register the asset bundle for the star rating functionality
+        Assets::register($this->getView());
+
         return $this->render('index');
     }
 
 }
-
