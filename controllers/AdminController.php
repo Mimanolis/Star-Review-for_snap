@@ -3,7 +3,7 @@
 namespace humhub\modules\exampleBasic\controllers;
 
 use humhub\modules\admin\components\Controller;
-use acmeCorp\humhub\modules\exampleBasic\assets\Assets;
+use humhub\modules\Starred\assets\Assets;
 
 class AdminController extends Controller
 {
