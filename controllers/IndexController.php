@@ -4,7 +4,7 @@ namespace humhub\modules\Starred\controllers;
 
 use humhub\modules\content\components\ContentContainerController;
 
-class StarredController extends ContentContainerController
+class IndexController extends ContentContainerController
 {
 
     /**
